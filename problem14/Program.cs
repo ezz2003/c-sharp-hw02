@@ -2,8 +2,6 @@
 
 string AnswerRemainder(int num)
 {
-  // int rem1 = num % 7;
-  // int rem2 = num % 23;
   return num % 7 == 0 & num % 23 == 0 ? $"Число {num} кратно числу 7 и числу 23": $"Число {num} не кратно числу 7 и числу 23";
 }
 
